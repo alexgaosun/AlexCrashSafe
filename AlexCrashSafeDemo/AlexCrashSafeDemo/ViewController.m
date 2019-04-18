@@ -27,7 +27,7 @@
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(100, 100, 200, 100);
     btn.backgroundColor = [UIColor redColor];
-    [btn setTitle:@"按钮方法没有实现" forState:UIControlStateNormal];
+    [btn setTitle:@"按钮方法没有实现  " forState:UIControlStateNormal];
     
     [self.view addSubview:btn];
     [btn addTarget:self action:@selector(testAction) forControlEvents:UIControlEventTouchUpInside];

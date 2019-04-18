@@ -92,7 +92,7 @@
     NSDictionary *exceptionDic = @{key_exceptionName:exceptionName,
                                    key_exceptionReason:exceptionReason,
                                    key_exceptionClassMethod:exceptionClassMethod};
-    NSLog(@"%@",exceptionDic);
+    NSLog(@"==========crashCatchDic==========\n%@\n     ==========End==========",exceptionDic);
     return exceptionDic;
 }
 
